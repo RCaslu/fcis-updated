@@ -1,3 +1,5 @@
+import Link from "@/components/ui/link";
+
 const Page6 = () => {
     return ( 
         <div 
@@ -37,6 +39,11 @@ const Page6 = () => {
                             Vencer qualquer obstáculo que te impeça de viver uma vida de abundância e que 
                             <br/>te permite dar as melhores condições para quem mais amas e para ti mesmo.
                         </p>
+                        <div className="flex justify-center py-6">
+                            <Link href="#Payments" className="rounded-xl justify-center" variant={"goldFCS"}>
+                            GARANTIR MINHA VAGA
+                            </Link>
+                        </div>
                 </div>
             </div>
         </div>
