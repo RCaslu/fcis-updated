@@ -2,7 +2,7 @@ const Page5 = () => {
     return ( 
         <div style={{
             backgroundImage: "url('./05/BACKGROUND.png')", // Correct path to the image
-            height: '1000px',
+            height: '1400px',
             backgroundSize: 'cover',  
             backgroundPosition: 'center'
         }}>
@@ -45,6 +45,41 @@ const Page5 = () => {
 
                     <br/><br/>Escritor de mais de 30 livros com 10 milhões de cópias vendidas.
                     </p>
+                </div>
+            </div>
+            <div className="flex justify-between py-4">
+                <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
+                    <img src="./05/camila.webp" className="p-1" width={"500px"} height={"30px"}></img>
+                    <div className="py-12">
+                        <p>
+                        Vice-presidente 
+                        <br/>da Maior escola de Negócios da América Latina, 
+                        <br/>Mentora de Empresárias, Autora Best-Seller 
+                        <br/>e especialista em comportamento Humano.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
+                    <img src="./05/julia.webp" className="p-1" width={"500px"} height={"30px"}></img>
+                    <div className="py-12">
+                        <p>
+                        Mentora, Palestrante e ministrante no maior treinamento de 
+                        <br/>Inteligência Emocional do Mundo, com mais de 1.5 milhões de 
+                        <br/>participantes em mais de 83 países.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
+                    <img src="./05/andre.webp" className="p-1" width={"500px"} height={"30px"}></img>
+                    <div className="py-12">
+                        <p>
+                        Renomado Neurocientista, professor convidado na universidade 
+                        <br/>de Harvard e Cambridge, autor de 4 livros e diversos artigos 
+                        <br/>científicos publicados em revistas nacionais e internacionais.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
