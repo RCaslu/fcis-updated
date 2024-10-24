@@ -20,7 +20,7 @@ const Video: React.FC<VideoProps> = ({ path }) => {
         height={videoHeight}
         src={path}
         frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         title="YouTube video"
       ></iframe>
