@@ -13,7 +13,7 @@ const Page10 = () => {
             <div className="flex justify-center">
                 
                 <div className="py-12">
-                    <h1
+                    <h1 className="text-amber-500"
                                 style={{
                                     fontFamily: 'sans-serif',
                                     fontSize: '59px',

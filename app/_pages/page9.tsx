@@ -42,7 +42,7 @@ const Page9 = () => {
                             wordSpacing: '4px'
                         }}
                         >
-                            LISBOA
+                            EUROPA
                         </h2>
 
                         <div className="py-5">

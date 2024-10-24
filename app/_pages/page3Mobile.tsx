@@ -19,7 +19,7 @@ const Page3Mobile = () => {
             }}>
                 <h1>
                     PORQUE ESTAR NO
-                    <br/><span className="text-[#F8A312]">MÉTODO CIS LISBOA</span>
+                    <br/><span className="text-[#F8A312]">MÉTODO CIS EUROPA</span>
                 </h1>
             </div>
             <div className="flex justify-center">

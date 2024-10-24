@@ -13,7 +13,7 @@ const Page10Mobile = () => {
             <div className="flex justify-center">
                 
                 <div className="py-12 text-center">
-                    <h1
+                    <h1 className="text-amber-500"
                                 style={{
                                     fontFamily: 'Tusker Grotesk, sans-serif',
                                     fontSize: '27px',

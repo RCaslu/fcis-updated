@@ -43,7 +43,7 @@ const Page1Mobile = () => {
           }}>
             Desperta a tua vida <br/>extraordinária<br />
             24 a 27 de outubro em 
-            <br/>Lisboa
+            <br/>Europa
           </h1>
           <Video path="./videos/Método CIS.mp4" />
             <div className="flex justify-center py-12">
