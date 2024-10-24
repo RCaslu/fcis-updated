@@ -1,6 +1,5 @@
 import Video from '@/app/_components/video';
 import React from 'react';
-import Link from "@/components/ui/link";
 import { Button } from '@/components/ui/button';
 
 const scrollToPayments = () => {

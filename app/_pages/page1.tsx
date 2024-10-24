@@ -1,4 +1,3 @@
-import Link from "@/components/ui/link";
 import Video from "../_components/video";
 import React from "react";
 import { Button } from "@/components/ui/button";

@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import Link from "@/components/ui/link";
 
 const scrollToPayments = () => {
     const element = document.getElementById('Payments');
