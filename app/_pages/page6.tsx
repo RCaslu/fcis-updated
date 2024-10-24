@@ -1,4 +1,12 @@
+import { Button } from "@/components/ui/button";
 import Link from "@/components/ui/link";
+
+const scrollToPayments = () => {
+    const element = document.getElementById('Payments');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
 const Page6 = () => {
     return ( 
@@ -40,9 +48,11 @@ const Page6 = () => {
                             <br/>te permite dar as melhores condições para quem mais amas e para ti mesmo.
                         </p>
                         <div className="flex justify-center py-6">
-                            <Link href="#Payments" className="rounded-xl justify-center" variant={"goldFCS"}>
+                            <a onClick={scrollToPayments} className="cursor-pointer">
+                            <Button className="rounded-xl justify-center" variant={"goldFCS"}>
                             GARANTIR MINHA VAGA
-                            </Link>
+                            </Button>
+                            </a>
                         </div>
                 </div>
             </div>

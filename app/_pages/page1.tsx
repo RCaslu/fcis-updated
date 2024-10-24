@@ -1,6 +1,14 @@
 import Link from "@/components/ui/link";
 import Video from "../_components/video";
 import React from "react";
+import { Button } from "@/components/ui/button";
+
+const scrollToPayments = () => {
+  const element = document.getElementById('Payments');
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 
 const Page1 = () => {
     return (
@@ -41,9 +49,11 @@ const Page1 = () => {
           </h1>
           <Video path="./videos/Método CIS.mp4" />
             <div className="flex justify-center py-6">
-            <Link href="#Payments" className="rounded-xl justify-center" variant={"goldFCS"}>
-            GARANTIR MINHA VAGA
-            </Link>
+            <a onClick={scrollToPayments} className="cursor-pointer">
+              <Button className="rounded-xl justify-center" variant={"goldFCS"}>
+              GARANTIR MINHA VAGA
+              </Button>
+            </a>
             </div>
         </div>
       </div>

@@ -1,4 +1,12 @@
+import { Button } from "@/components/ui/button";
 import Link from "@/components/ui/link";
+
+const scrollToPayments = () => {
+    const element = document.getElementById('Payments');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
 const Page6Mobile = () => {
     return ( 
@@ -50,9 +58,11 @@ const Page6Mobile = () => {
                             </p>
 
                             <div className="py-8">
-                                <Link href="#Payments" className="rounded-xl justify-center" variant={"goldFCS"} size='lg'>
-                                    GARANTIR MINHA VAGA
-                                </Link>
+                                <a onClick={scrollToPayments}>
+                                    <Button className="rounded-xl justify-center" variant={"goldFCS"} size='lg'>
+                                        GARANTIR MINHA VAGA
+                                    </Button>
+                                </a>
                             </div>
                     </div>
 

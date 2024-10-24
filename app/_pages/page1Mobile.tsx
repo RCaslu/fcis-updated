@@ -1,6 +1,14 @@
 import Video from '@/app/_components/video';
 import React from 'react';
 import Link from "@/components/ui/link";
+import { Button } from '@/components/ui/button';
+
+const scrollToPayments = () => {
+  const element = document.getElementById('Payments');
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 
 const Page1Mobile = () => {
   return (
@@ -33,16 +41,17 @@ const Page1Mobile = () => {
             paddingBottom: '20px',
             lineHeight: '1.1'
           }}>
-            Desperta a tua vida 
-            <br/>extraordinária<br />
+            Desperta a tua vida <br/>extraordinária<br />
             24 a 27 de outubro em 
             <br/>Lisboa
           </h1>
           <Video path="./videos/Método CIS.mp4" />
             <div className="flex justify-center py-12">
-            <Link href="#Payments" className="rounded-xl justify-center" variant={"goldFCS"} size='lg'>
-            GARANTIR MINHA VAGA
-            </Link>
+            <a onClick={scrollToPayments}>
+              <Button className="rounded-xl justify-center" variant={"goldFCS"} size='lg'>
+              GARANTIR MINHA VAGA
+              </Button>
+            </a>
             </div>
         </div>
     </div>
