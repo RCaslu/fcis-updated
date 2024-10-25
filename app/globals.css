@@ -10,6 +10,8 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Zilla+Slab:wght@400;700&display=swap');
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -70,4 +72,12 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-zillaslab {
+  font-family: 'Zilla Slab', serif;
 }
