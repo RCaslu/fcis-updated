@@ -7,17 +7,16 @@ const Page8 = () => {
             backgroundSize: 'cover',  
             backgroundPosition: 'center' 
           }}>
-            <div className="flex justify-center" style={{
+            <div className="flex font-poppins justify-center" style={{
                 padding: '80px 0',
                 paddingBottom: '40px',
                 lineHeight: '1.2',
-                fontFamily: 'Tusker Grotesk, sans-serif',
                 fontSize: '32px',
                 fontWeight: 'bold',
                 letterSpacing: '2.5px',
                 textAlign: 'center',
             }}>
-                <h1 className="text-[#F8A312]">
+                <h1 className="text-[#F8A312] font-poppins">
                         4 DIAS COM AS MAIS AVANÇADAS FERRAMENTAS DA
                     <br/>NEUROCIÊNCIA E DA PSICOLOGIA COMPORTAMENTAL
                     <br/>PARA MUDAR A TUA REALIDADE RÁPIDO.
@@ -28,9 +27,8 @@ const Page8 = () => {
             </div>
             <div className="flex flex-col">
             <div className="flex justify-center py-7">
-                <h1 className="text-amber-500"
+                <h1 className="text-amber-500 font-poppins "
                 style={{
-                    fontFamily: 'sans-serif',
                     fontSize: '28px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -41,9 +39,9 @@ const Page8 = () => {
             </div>
                 
                 <div>
-                <h2 className="text-white" 
+                <h2 className="text-white font-montserrat" 
                 style={{
-                    fontFamily: 'sans-serif',
+                    
                     fontSize: '20px',
                     fontWeight: '400',
                     lineHeight: '1.2em',
@@ -61,9 +59,9 @@ const Page8 = () => {
                 </div>
                 
                 <div className="flex justify-center">
-                <h1 className="text-amber-500"
+                <h1 className="text-amber-500 font-poppins"
                 style={{
-                    fontFamily: 'sans-serif',
+                    
                     fontSize: '28px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -74,9 +72,9 @@ const Page8 = () => {
             </div>
 
             <div>
-                <h2 className="text-white py-5" 
+                <h2 className="text-white font-montserrat py-5" 
                     style={{
-                        fontFamily: 'sans-serif',
+                        
                         fontSize: '20px',
                         fontWeight: '400',
                         lineHeight: '1.2em',
@@ -94,9 +92,9 @@ const Page8 = () => {
             </div>
 
             <div className="flex justify-center py-7">
-                <h1 className="text-amber-500"
+                <h1 className="text-amber-500 font-poppins"
                 style={{
-                    fontFamily: 'sans-serif',
+                    
                     fontSize: '28px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -107,9 +105,9 @@ const Page8 = () => {
             </div>
 
                 <div>
-                    <h2 className="text-white" 
+                    <h2 className="text-white font-montserrat" 
                         style={{
-                            fontFamily: 'sans-serif',
+                            
                             fontSize: '20px',
                             fontWeight: '400',
                             lineHeight: '1.2em',
@@ -127,9 +125,9 @@ const Page8 = () => {
                 </div>
 
                 <div className="flex justify-center py-7">
-                <h1 className="text-amber-500"
+                <h1 className="text-amber-500 font-poppins"
                 style={{
-                    fontFamily: 'sans-serif',
+                    
                     fontSize: '28px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -140,9 +138,9 @@ const Page8 = () => {
             </div>
 
                 <div>
-                    <h2 className="text-white" 
+                    <h2 className="text-white font-montserrat" 
                         style={{
-                            fontFamily: 'sans-serif',
+                            
                             fontSize: '20px',
                             fontWeight: '400',
                             lineHeight: '1.2em',

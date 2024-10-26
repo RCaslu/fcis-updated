@@ -65,10 +65,10 @@ export default function FormsDesktop({ device }: FormProps) {
   }
 
   return (
-    <div className='flex justify-center text-center py-6'>
+    <div className='flex justify-center text-center py-6 font-zillaslab'>
         <div className='flex justify-center w-[600px] rounded-xl bg-white'>
         <form onSubmit={handleSubmit} className='py-[5px] rounded-xl bg-white'>
-        <p className='text-black py-6 pt-12 font-serif'>Um de nossos consultores vai entrar em contacto consigo</p>
+        <p className='text-black py-6 pt-12'>Um de nossos consultores vai entrar em contacto consigo</p>
       <div className='py-2'>
                     <input 
                         type="name" 
@@ -117,7 +117,7 @@ export default function FormsDesktop({ device }: FormProps) {
           <br />TRANSFORMADA
         </Button>
         <div>
-            <p className='text-black pb-12 font-serif'>Preenche o formulário acima e <span className='font-bold'>tenha a vida transformada</span></p>
+            <p className='text-black pb-12'>Preenche o formulário acima e <span className='font-bold'>tenha a vida transformada</span></p>
         </div>
       </form>
         </div>

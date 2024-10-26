@@ -31,11 +31,10 @@ const Page1Mobile = () => {
           }}
         />
         <div style={{ position: 'relative', zIndex: 2 }}>
-          <h1 className="text-amber-500 text-center"
+          <h1 className="text-amber-500 text-center font-poppins"
           style={{
             fontSize: '28px',
             fontWeight: 'bold',
-            fontFamily: 'Montserrat, sans-serif',
             padding: '150px 0',
             paddingBottom: '20px',
             lineHeight: '1.1'

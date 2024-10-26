@@ -29,6 +29,11 @@ const Page6 = () => {
                         Depois do <span className="text-[#F8A312]">MÉTODO CIS</span>
                         <br/>serás capaz de...
                     </h1>
+                    <div
+                    style={{
+                        fontFamily: 'montserrat, sans-serif',
+                    }}
+                    >
                     <p>
                             <span className="text-[#F8A312] text-xl font-bold"> - </span> 
                             Vencer qualquer obstáculo que te impeça de viver uma vida de abundância e que 
@@ -46,6 +51,7 @@ const Page6 = () => {
                             Vencer qualquer obstáculo que te impeça de viver uma vida de abundância e que 
                             <br/>te permite dar as melhores condições para quem mais amas e para ti mesmo.
                         </p>
+                    </div>
                         <div className="flex justify-center py-6">
                             <a onClick={scrollToPayments} className="cursor-pointer">
                             <Button className="rounded-xl justify-center" variant={"goldFCS"}>

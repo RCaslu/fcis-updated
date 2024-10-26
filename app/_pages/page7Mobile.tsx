@@ -14,7 +14,7 @@ const Page7Mobile = () => {
                 <div className="bg-white items-center rounded-xl py-12">
                 <h1 className="text-slate-800 text-center"
                 style={{
-                    fontFamily: 'Tusker Grotesk, sans-serif',
+                    fontFamily: 'montserrat, sans-serif',
                     fontWeight: 'bold',
                     letterSpacing: '1.0px',
                     lineHeight: '1.2',

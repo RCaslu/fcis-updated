@@ -30,7 +30,10 @@ const Page6Mobile = () => {
                         <br/>serás capaz de...
                     </h1>
                     <div className="flex flex-col items-center py-5">
-                        <p>
+                       <div style={{
+                            fontFamily: 'montserrat, sans-serif',
+                       }}>
+                       <p>
                                 <span className="text-[#F8A312] text-xl font-bold"> - </span> 
                                 Vencer qualquer obstáculo que te impeça 
                                 <br/>de viver uma vida de abundância e que te 
@@ -55,6 +58,7 @@ const Page6Mobile = () => {
                                 <br/>para ti enquanto tu desfrutas 
                                 <br/>da vida com as pessoas que amas.
                             </p>
+                       </div>
 
                             <div className="py-8">
                                 <a onClick={scrollToPayments}>

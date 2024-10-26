@@ -59,7 +59,11 @@ const Page5Mobile = () => {
                 </div>
             </div>
             
-            <div className="gap-y-4 flex flex-col py-4">
+            <div 
+            style={{
+                fontFamily: 'montserrat, sans-serif'
+            }}
+            className="gap-y-4 flex flex-col py-4">
                 <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
                     <img src="./05/camila.webp" className="p-1" width={"500px"} height={"30px"}></img>
                     <div className="py-12">

@@ -15,7 +15,7 @@ const Page10 = () => {
                 <div className="py-12">
                     <h1 className="text-amber-500"
                                 style={{
-                                    fontFamily: 'sans-serif',
+                                    fontFamily: 'Tusker Grotesk, sans-serif',
                                     fontSize: '59px',
                                     fontWeight: 'bold',
                                     letterSpacing: '2.3px',
@@ -27,6 +27,11 @@ const Page10 = () => {
                                     <br/>TUA VIDA DE UMA VEZ POR TODAS
                     </h1>
 
+                    <div className="text-center">
+                        <h2 className="text-white text-[26px] py-6">
+                            Garante teu lugar com desconto por tempo limitado
+                        </h2>
+                    </div>
                     <div className="flex justify-between py-32">
                     <div className="bg-white py-20 justify-center rounded-xl" style=
                     {{

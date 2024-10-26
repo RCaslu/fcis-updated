@@ -21,7 +21,7 @@ const Page9 = () => {
                     <div className="py-32 px-12">
                         <h1
                         style={{
-                            fontFamily: 'sans-serif',
+                            fontFamily: 'Montserrat, sans-serif',
                             fontSize: '34px',
                             fontWeight: 'bold',
                             letterSpacing: '-0.8px',
@@ -35,7 +35,7 @@ const Page9 = () => {
                         
                         <h2 className="py-4"
                         style={{
-                            fontFamily: 'sans-serif',
+                            fontFamily: 'Montserrat, sans-serif',
                             fontSize: '34px',
                             fontWeight: 'bold',
                             letterSpacing: '-0.8px',

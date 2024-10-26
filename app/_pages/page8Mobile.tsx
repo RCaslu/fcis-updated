@@ -7,11 +7,10 @@ const Page8Mobile = () => {
             backgroundSize: 'cover',  
             backgroundPosition: 'center' 
           }}>
-            <div className="flex justify-center" style={{
+            <div className="flex font-poppins justify-center" style={{
                 padding: '80px 0',
                 paddingBottom: '40px',
                 lineHeight: '1.2',
-                fontFamily: 'Tusker Grotesk, sans-serif',
                 fontSize: '27px',
                 fontWeight: 'bold',
                 letterSpacing: '2.5px',
@@ -33,9 +32,8 @@ const Page8Mobile = () => {
             </div>
             <div className="flex flex-col">
             <div className="flex justify-center py-7">
-                <h1 className="text-amber-500 text-center"
+                <h1 className="text-amber-500 text-center font-poppins"
                 style={{
-                    fontFamily: 'montserrat, sans-serif',
                     fontSize: '27px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -47,9 +45,9 @@ const Page8Mobile = () => {
             </div>
                 
                 <div>
-                <h2 className="text-white text-center" 
+                <h2 className="text-white text-center font-poppins" 
                 style={{
-                    fontFamily: 'montserrat, sans-serif',
+                    
                     fontSize: '16px',
                     fontWeight: '400',
                     lineHeight: '1.2em',
@@ -70,9 +68,9 @@ const Page8Mobile = () => {
                 </div>
                 
                 <div className="flex justify-center">
-                <h1 className="text-amber-500 text-center"
+                <h1 className="text-amber-500 text-center font-poppins"
                 style={{
-                    fontFamily: 'montserrat, sans-serif',
+                    
                     fontSize: '27px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -86,7 +84,7 @@ const Page8Mobile = () => {
             <div>
                 <h2 className="text-white py-5 text-center" 
                     style={{
-                        fontFamily: 'montserrat, sans-serif',
+                        
                         fontSize: '16px',
                         fontWeight: '400',
                         lineHeight: '1.2em',
@@ -107,9 +105,9 @@ const Page8Mobile = () => {
                 </div>
 
                 <div className="flex justify-center py-7">
-                <h1 className="text-amber-500 text-center"
+                <h1 className="text-amber-500 text-center font-poppins"
                 style={{
-                    fontFamily: 'montserrat, sans-serif',
+                    
                     fontSize: '27px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -121,9 +119,9 @@ const Page8Mobile = () => {
             </div>
 
             <div className="pb-12">
-                <h2 className="text-white text-center" 
+                <h2 className="text-white text-center font-poppins" 
                 style={{
-                    fontFamily: 'montserrat, sans-serif',
+                    
                     fontSize: '16px',
                     fontWeight: '400',
                     lineHeight: '1.2em',
@@ -145,9 +143,9 @@ const Page8Mobile = () => {
                 </div>
 
                 <div className="flex justify-center py-7">
-                <h1 className="text-amber-500 text-center"
+                <h1 className="text-amber-500 text-center font-poppins"
                 style={{
-                    fontFamily: 'montserrat, sans-serif',
+                    
                     fontSize: '27px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -159,9 +157,9 @@ const Page8Mobile = () => {
             </div>
 
                 <div className="pb-12">
-                <h2 className="text-white text-center" 
+                <h2 className="text-white text-center font-poppins" 
                 style={{
-                    fontFamily: 'montserrat, sans-serif',
+                    
                     fontSize: '16px',
                     fontWeight: '400',
                     lineHeight: '1.2em',

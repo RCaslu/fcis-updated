@@ -29,7 +29,12 @@ const Page10Mobile = () => {
                                     <br/>VEZ POR TODAS
                     </h1>
 
-                    <div className="py-12">
+                    <div 
+                    style={{
+                        fontFamily: 'Montserrat, sans-serif',
+                        fontSize: '16px',
+                    }}
+                    className="py-12">
                         <p>Garante teu lugar com desconto por tempo limitado</p>
                     </div>
 

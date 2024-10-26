@@ -2,7 +2,7 @@ const Page5 = () => {
     return ( 
         <div style={{
             backgroundImage: "url('./05/BACKGROUND.png')", // Correct path to the image
-            height: '1400px',
+            height: 'flex',
             backgroundSize: 'cover',  
             backgroundPosition: 'center'
         }}>
@@ -27,10 +27,11 @@ const Page5 = () => {
                     paddingTop: '50px',
                     paddingBottom: '50px',               
                     borderTopRightRadius: '32px',
-                    borderBottomRightRadius: '32px'
+                    borderBottomRightRadius: '32px',
+                    fontFamily: 'montserrat, sans-serif',
                   }}
                 >
-                    <p className="text-xl font-bold px-16">
+                    <p className="text-xl px-16">
                     Tu não serás “cobaia” de algo ainda não validado. Paulo Vieira é:
 
                     <br/><br/>Master Coach, PhD em Business Administration e Mestre em
@@ -47,10 +48,18 @@ const Page5 = () => {
                     </p>
                 </div>
             </div>
-            <div className="flex justify-between py-4">
+            <div 
+            style={{
+                fontFamily: 'montserrat, sans-serif'
+            }}
+            className="flex justify-between py-4">
                 <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
                     <img src="./05/camila.webp" className="p-1" width={"500px"} height={"30px"}></img>
-                    <div className="py-12">
+                    <div
+                    style={{
+                        fontFamily: 'montserrat, sans-serif'
+                    }}
+                    className="py-12">
                         <p>
                         Vice-presidente 
                         <br/>da Maior escola de Negócios da América Latina, 
@@ -62,7 +71,11 @@ const Page5 = () => {
 
                 <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
                     <img src="./05/julia.webp" className="p-1" width={"500px"} height={"30px"}></img>
-                    <div className="py-12">
+                    <div 
+                    style={{
+                        fontFamily: 'montserrat, sans-serif'
+                    }}
+                    className="py-12">
                         <p>
                         Mentora, Palestrante e ministrante no maior treinamento de 
                         <br/>Inteligência Emocional do Mundo, com mais de 1.5 milhões de 
@@ -73,7 +86,11 @@ const Page5 = () => {
 
                 <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
                     <img src="./05/andre.webp" className="p-1" width={"500px"} height={"30px"}></img>
-                    <div className="py-12">
+                    <div
+                    style={{
+                        fontFamily: 'montserrat, sans-serif'
+                    }}
+                    className="py-12">
                         <p>
                         Renomado Neurocientista, professor convidado na universidade 
                         <br/>de Harvard e Cambridge, autor de 4 livros e diversos artigos 

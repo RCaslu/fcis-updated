@@ -11,7 +11,7 @@ const scrollToPayments = () => {
 
 const Page1 = () => {
     return (
-      <div className="font-poppins"
+      <div className="font-poppins font-bold"
         style={{
           backgroundImage: "url('./01/BACKGROUND.png')", // Correct path to the image
           height: '1000px',
@@ -37,7 +37,6 @@ const Page1 = () => {
           style={{
             fontSize: '48px',
             fontWeight: 'bold',
-            fontFamily: 'Montserrat',
             padding: '150px 0',
             paddingBottom: '20px',
             lineHeight: '1.1'

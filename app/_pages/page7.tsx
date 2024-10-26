@@ -16,7 +16,7 @@ const Page7 = () => {
                 }}>
                 <h1 className="text-4xl text-slate-800"
                 style={{
-                    fontFamily: 'Tusker Grotesk, sans-serif',
+                    fontFamily: 'montserrat, sans-serif',
                     fontWeight: 'bold',
                     letterSpacing: '1.0px',
                     lineHeight: '1.2',
