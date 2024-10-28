@@ -1,4 +1,3 @@
-import Video from "../_components/video";
 import SmallVideo from "../_components/videoSection7";
 
 const Page7Mobile = () => {
