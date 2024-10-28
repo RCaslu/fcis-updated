@@ -1,11 +1,11 @@
 import Video from "../_components/video";
+import SmallVideo from "../_components/videoSection7";
 
 const Page7Mobile = () => {
     return ( 
         <div className="flex flex-col items-center"
         style={{
             backgroundImage: "url('./07/BACKGROUND.png')", // FIX: CHANCE THE BACKGROUND IMG
-            height: '800px',
             backgroundSize: 'cover',  
             backgroundPosition: 'center'
         }}
@@ -31,10 +31,10 @@ const Page7Mobile = () => {
                 > MÉTODO CIS</h1>
                 <div>
                 <div className="px-5">
-                        <Video path="./videos/video2.mp4" />
+                        <SmallVideo path="./videos/video2.mp4" />
                     </div>
                     <div className="px-5">
-                        <Video path="./videos/video3.mp4" />
+                        <SmallVideo path="./videos/video3.mp4" />
                     </div>
                 </div>
                 </div>

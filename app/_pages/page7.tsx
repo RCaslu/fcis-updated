@@ -1,4 +1,4 @@
-import Video from "../_components/video";
+import SmallVideo from "../_components/videoSection7";
 
 const Page7 = () => {
     return ( 
@@ -31,10 +31,17 @@ const Page7 = () => {
                 > MÉTODO CIS</h1>
                 <div className="flex p-5">
                     <div className="px-5">
-                        <Video path="./videos/video2.mp4" />
+                        <SmallVideo path="./videos/video2.mp4" />
                     </div>
                     <div className="px-5">
-                        <Video path="./videos/video3.mp4" />
+                    <video className='rounded-xl' 
+                    style={{ boxShadow: '6px 6px 0px 0px rgba(233, 153, 12, 1)' }}
+                        width={310}
+                        height={200}
+                        src="./videos/video3.mp4"
+                        controls
+                        title="YouTube video"
+                    ></video>
                     </div>
                 </div>
                 </div>
