@@ -76,7 +76,7 @@ export default function Form({ device }: FormProps) {
                         value={name} 
                         placeholder='Seu nome'
                         onChange={handleNameChange} 
-                        className=" p-2 border w-full border-gray-300 rounded text-black"
+                        className="w-[410px] p-2 border w-full border-gray-300 rounded text-black"
                     />
         </div>
         <div className="py-2">
@@ -85,7 +85,7 @@ export default function Form({ device }: FormProps) {
             value={email}
             onChange={handleEmailChange}
             placeholder="Seu melhor Email"
-            className="w-full p-2 border border-gray-300 rounded text-black"
+            className="w-[410px] p-2 border border-gray-300 rounded text-black"
           />
         </div>
         <div className="py-2">
@@ -95,7 +95,7 @@ export default function Form({ device }: FormProps) {
             value={telefone}
             placeholder="Seu Whatsapp"
             onChange={handleTelefoneChange}
-            className="w-full p-2 border border-gray-300 rounded text-black"
+            className="w-[410px] p-2 border border-gray-300 rounded text-black"
           />
         </div>
         {errorMessage && (
@@ -110,9 +110,9 @@ export default function Form({ device }: FormProps) {
         )}
         <Button 
         type="submit"
-        className="w-full"
-        variant={'ProjectButton'}
-        size={'ProjectButton'}>
+        className=""
+        variant={'ProjectButtonForms'}
+        size={'ProjectButtonMobileSecond'}>
           QUERO TER MINHA VIDA 
           <br />TRANSFORMADA
         </Button>

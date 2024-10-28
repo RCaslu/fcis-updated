@@ -18,12 +18,13 @@ const buttonVariants = cva(
         secondary:
           "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         goldFCS:
-          "bg-[#f8a312] font-bold text-black shadow-sm hover:bg-gold/80",
+          "bg-[#f8a312] font-poppins font-bold text-black shadow-sm hover:bg-gold/80",
         blueFCS:
-          "bg-[#11114e] font-bold text-black shadow-sm hover:bg-gold/80",
+          "bg-[#11114e] font-poppins font-bold text-black shadow-sm hover:bg-gold/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        ProjectButton: "bg-[#11114e] font-bold text-white shadow-sm hover:bg-gold/80 rounded-xl",
+        ProjectButton: "bg-[#11114e] font-poppins font-bold text-white shadow-sm hover:bg-gold/80 rounded-xl",
+        ProjectButtonForms: "bg-[#11114e] font-poppins font-bold text-white shadow-sm hover:bg-gold/80 rounded-xl",
       },
       size: {
         default: "h-20 px-32 py-2",
@@ -32,6 +33,7 @@ const buttonVariants = cva(
         icon: "h-9 w-9",
         ProjectButton: "h-[100px] w-[424px] px-4 py-2",
         ProjectButtonMobile: "h-[80px] w-[350px] px-4 py-2",
+        ProjectButtonMobileSecond: "w-[410px] px-2 py-2",
       },
     },
     defaultVariants: {
