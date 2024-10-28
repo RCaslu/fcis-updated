@@ -76,7 +76,7 @@ export default function Form({ device }: FormProps) {
                         value={name} 
                         placeholder='Seu nome'
                         onChange={handleNameChange} 
-                        className="w-[410px] p-2 border w-full border-gray-300 rounded text-black"
+                        className="w-[410px] p-2 border border-gray-300 rounded text-black"
                     />
         </div>
         <div className="py-2">
