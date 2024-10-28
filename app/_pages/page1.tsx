@@ -33,7 +33,7 @@ const Page1 = () => {
         />
         {/* Content div */}
         <div style={{ position: 'relative', zIndex: 2 }}>
-          <h1 className="text-amber-500 text-center"
+          <h1 className="text-amber-500 font-poppins text-center"
           style={{
             fontSize: '48px',
             fontWeight: 'bold',
