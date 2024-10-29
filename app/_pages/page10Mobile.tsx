@@ -31,7 +31,7 @@ const Page10Mobile = () => {
 
                     <div 
                     style={{
-                        fontFamily: 'Montserrat, sans-serif',
+                        fontFamily: 'Poppins, sans-serif',
                         fontSize: '16px',
                     }}
                     className="py-12">
