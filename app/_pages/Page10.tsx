@@ -28,7 +28,9 @@ const Page10 = () => {
                     </h1>
 
                     <div className="text-center">
-                        <h2 className="text-white text-[26px] py-6">
+                        <h2 className="text-white text-[26px] py-6" style={{
+                            fontFamily: 'Poppins, sans-serif',
+                        }}>
                             Garante teu lugar com desconto por tempo limitado
                         </h2>
                     </div>
