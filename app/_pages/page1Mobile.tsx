@@ -11,7 +11,7 @@ const scrollToPayments = () => {
 
 const Page1Mobile = () => {
   return (
-    <div className='font-poppins'
+    <div className=''
         style={{
           backgroundImage: "url('./01/BACKGROUND.png')", // Correct path to the image
           height: '680px',
@@ -31,9 +31,10 @@ const Page1Mobile = () => {
           }}
         />
         <div style={{ position: 'relative', zIndex: 2 }}>
-          <h1 className="text-amber-500 text-center font-poppins"
+          <h1 className="text-amber-500 text-center"
           style={{
             fontSize: '28px',
+            fontFamily: 'Poppins, sans-serif',
             fontWeight: 'bold',
             padding: '150px 0',
             paddingBottom: '20px',

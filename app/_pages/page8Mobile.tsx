@@ -7,7 +7,8 @@ const Page8Mobile = () => {
             backgroundSize: 'cover',  
             backgroundPosition: 'center' 
           }}>
-            <div className="flex font-poppins justify-center" style={{
+            <div className="flex  justify-center" style={{
+                fontFamily: 'Poppins, sans-serif',
                 padding: '80px 0',
                 paddingBottom: '40px',
                 lineHeight: '1.2',
@@ -32,8 +33,9 @@ const Page8Mobile = () => {
             </div>
             <div className="flex flex-col">
             <div className="flex justify-center py-7">
-                <h1 className="text-amber-500 text-center font-poppins"
+                <h1 className="text-amber-500 text-center "
                 style={{
+                    fontFamily: 'Poppins, sans-serif',
                     fontSize: '27px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -45,9 +47,8 @@ const Page8Mobile = () => {
             </div>
                 
                 <div>
-                <h2 className="text-white text-center font-poppins" 
+                <h2 className="text-white text-center " 
                 style={{
-                    
                     fontSize: '16px',
                     fontWeight: '400',
                     lineHeight: '1.2em',
@@ -68,9 +69,9 @@ const Page8Mobile = () => {
                 </div>
                 
                 <div className="flex justify-center">
-                <h1 className="text-amber-500 text-center font-poppins"
+                <h1 className="text-amber-500 text-center "
                 style={{
-                    
+                    fontFamily: 'Poppins, sans-serif',
                     fontSize: '27px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -105,9 +106,9 @@ const Page8Mobile = () => {
                 </div>
 
                 <div className="flex justify-center py-7">
-                <h1 className="text-amber-500 text-center font-poppins"
+                <h1 className="text-amber-500 text-center "
                 style={{
-                    
+                    fontFamily: 'Poppins, sans-serif',
                     fontSize: '27px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -119,7 +120,7 @@ const Page8Mobile = () => {
             </div>
 
             <div className="pb-12">
-                <h2 className="text-white text-center font-poppins" 
+                <h2 className="text-white text-center " 
                 style={{
                     
                     fontSize: '16px',
@@ -143,9 +144,9 @@ const Page8Mobile = () => {
                 </div>
 
                 <div className="flex justify-center py-7">
-                <h1 className="text-amber-500 text-center font-poppins"
+                <h1 className="text-amber-500 text-center "
                 style={{
-                    
+                    fontFamily: 'Poppins, sans-serif',
                     fontSize: '27px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -157,7 +158,7 @@ const Page8Mobile = () => {
             </div>
 
                 <div className="pb-12">
-                <h2 className="text-white text-center font-poppins" 
+                <h2 className="text-white text-center " 
                 style={{
                     
                     fontSize: '16px',
