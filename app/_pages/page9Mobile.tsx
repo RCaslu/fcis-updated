@@ -21,7 +21,7 @@ const Page9Mobile = () => {
                     <div className="py-32 px-12">
                         <h1
                         style={{
-                            fontFamily: 'Montserrat, sans-serif',
+                            fontFamily: 'Poppins, sans-serif',
                             fontSize: '34px',
                             fontWeight: 'bold',
                             letterSpacing: '-0.8px',
@@ -35,7 +35,7 @@ const Page9Mobile = () => {
                         
                         <h2 className="py-4"
                         style={{
-                            fontFamily: 'Montserrat, sans-serif',
+                            fontFamily: 'Poppins, sans-serif',
                             fontSize: '34px',
                             fontWeight: 'bold',
                             letterSpacing: '-0.8px',
@@ -45,7 +45,9 @@ const Page9Mobile = () => {
                             EUROPA
                         </h2>
 
-                        <div className="py-5">
+                        <div className="py-5" style={{
+                            fontFamily: 'Poppins, sans-serif',
+                        }}>
                             <div className="flex">
                                 <img src="./09/Layer 7.png" className="" width={'21px'} height={"21px"}></img>
                                 <h1 className="px-2 text-amber-500">24 a 27 de Outubro</h1>
