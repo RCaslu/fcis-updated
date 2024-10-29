@@ -7,8 +7,9 @@ const Page8 = () => {
             backgroundSize: 'cover',  
             backgroundPosition: 'center' 
           }}>
-            <div className="flex font-poppins justify-center" style={{
+            <div className="flex  justify-center" style={{
                 padding: '80px 0',
+                fontFamily: 'Poppins, sans-serif',
                 paddingBottom: '40px',
                 lineHeight: '1.2',
                 fontSize: '32px',
@@ -16,7 +17,9 @@ const Page8 = () => {
                 letterSpacing: '2.5px',
                 textAlign: 'center',
             }}>
-                <h1 className="text-[#F8A312] font-poppins">
+                <h1 className="text-[#F8A312]" style={{
+                    fontFamily: 'Poppins, sans-serif',
+                }}>
                         4 DIAS COM AS MAIS AVANÇADAS FERRAMENTAS DA
                     <br/>NEUROCIÊNCIA E DA PSICOLOGIA COMPORTAMENTAL
                     <br/>PARA MUDAR A TUA REALIDADE RÁPIDO.
@@ -27,9 +30,10 @@ const Page8 = () => {
             </div>
             <div className="flex flex-col">
             <div className="flex justify-center py-7">
-                <h1 className="text-amber-500 font-poppins "
+                <h1 className="text-amber-500 "
                 style={{
                     fontSize: '28px',
+                    fontFamily: 'Poppins, sans-serif',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
                     wordSpacing: '4px'
@@ -59,9 +63,9 @@ const Page8 = () => {
                 </div>
                 
                 <div className="flex justify-center">
-                <h1 className="text-amber-500 font-poppins"
+                <h1 className="text-amber-500"
                 style={{
-                    
+                    fontFamily: 'Poppins, sans-serif',
                     fontSize: '28px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -92,9 +96,9 @@ const Page8 = () => {
             </div>
 
             <div className="flex justify-center py-7">
-                <h1 className="text-amber-500 font-poppins"
+                <h1 className="text-amber-500"
                 style={{
-                    
+                    fontFamily: 'Poppins, sans-serif',
                     fontSize: '28px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -125,9 +129,9 @@ const Page8 = () => {
                 </div>
 
                 <div className="flex justify-center py-7">
-                <h1 className="text-amber-500 font-poppins"
+                <h1 className="text-amber-500"
                 style={{
-                    
+                    fontFamily: 'Poppins, sans-serif',
                     fontSize: '28px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
