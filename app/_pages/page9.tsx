@@ -45,7 +45,9 @@ const Page9 = () => {
                             EUROPA
                         </h2>
 
-                        <div className="py-5">
+                        <div className="py-5" style={{
+                            fontFamily: 'Poppins, sans-serif',
+                        }}>
                             <div className="flex">
                                 <img src="./09/Layer 7.png" className="" width={'21px'} height={"21px"}></img>
                                 <h1 className="px-2 text-amber-500">24 a 27 de Outubro</h1>
