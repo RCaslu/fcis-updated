@@ -18,7 +18,7 @@ const Page9Mobile = () => {
                     backgroundPosition: 'center'
                 }}
                 >
-                    <div className="py-32 px-12">
+                    <div className="py-[60px] px-12">
                         <h1
                         style={{
                             fontFamily: 'Poppins, sans-serif',
