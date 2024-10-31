@@ -62,7 +62,11 @@ const Page6Mobile = () => {
 
                             <div className="py-8">
                                 <a onClick={scrollToPayments}>
-                                    <Button className="rounded-xl justify-center" variant={"goldFCS"} size='lg'>
+                                    <Button 
+                                    style={{
+                                        fontFamily: 'Poppins, sans-serif',
+                                      }}
+                                    className="rounded-xl justify-center" variant={"goldFCS"} size='lg'>
                                         GARANTIR MINHA VAGA
                                     </Button>
                                 </a>
