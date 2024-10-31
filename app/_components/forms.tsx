@@ -68,7 +68,7 @@ export default function Form({ device }: FormProps) {
     <div className='flex flex-col text-center item-center font-zillaslab'>
         <div className=' py-12 '>
         <form onSubmit={handleSubmit} className='py-[5px] rounded-xl bg-white w-[420px] mx-auto'>
-        <strong><p className='text-black py-6 pt-12'>Um de nossos consultores vai entrar em contacto consigo</p></strong>
+        <strong><p style={{fontFamily: 'Zilla Slab, sans-serif',}} className='text-black py-6 pt-12'>Um de nossos consultores vai entrar em contacto consigo</p></strong>
       <div className='py-2'>
                     <input 
                         type="name" 
@@ -120,7 +120,7 @@ export default function Form({ device }: FormProps) {
           <br />TRANSFORMADA
         </Button>
         <div>
-            <strong><br/><p className='text-black pb-12'>Preenche o formulário acima e <span className='font-bold'>tenha a vida transformada</span></p></strong>
+            <strong><br/><p style={{fontFamily: 'Zilla Slab, sans-serif',}} className='text-black pb-12'>Preenche o formulário acima e <span className='font-bold'>tenha a vida transformada</span></p></strong>
         </div>
       </form>
         </div>
