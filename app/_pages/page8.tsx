@@ -50,6 +50,7 @@ const Page8 = () => {
                     fontWeight: '400',
                     lineHeight: '1.2em',
                     textAlign: 'center',
+                    fontFamily: 'Poppins Regular, sans-serif'
                 }}>
                     Acabar com tudo que te limita vai ser o primeiro passo para retomares o controle da tua vida, superar todos os teus limites e vencer
                     <br/>todos os obstáculos no caminho entre tu e a tua vida extraordinária.
@@ -83,6 +84,7 @@ const Page8 = () => {
                         fontWeight: '400',
                         lineHeight: '1.2em',
                         textAlign: 'center',
+                        fontFamily: 'Poppins Regular, sans-serif'
                     }}>
                         Após ampliar o seu nível de consciência, tu vais aprender mecanismos científicos comprovados para construir novas crenças que te 
                         <br/>impulsionarão ao próximo nível.
@@ -116,6 +118,7 @@ const Page8 = () => {
                             fontWeight: '400',
                             lineHeight: '1.2em',
                             textAlign: 'center',
+                            fontFamily: 'Poppins Regular, sans-serif'
                         }}>
                             O Método CIS é um evento único de quatro dias, onde tu terás acesso a mais de 60 horas de conteúdo intensivo, focado em promover 
                             <br/>uma verdadeira mudança de mentalidade e comportamento.
@@ -149,6 +152,7 @@ const Page8 = () => {
                             fontWeight: '400',
                             lineHeight: '1.2em',
                             textAlign: 'center',
+                            fontFamily: 'Poppins Regular, sans-serif'
                         }}>
                             Vais vivenciar uma experiência de alto poder transformacional, que vai impulsionar o seu crescimento e levar-te ao sucesso 
                             <br/>extraordinário em todas as áreas da tua vida.

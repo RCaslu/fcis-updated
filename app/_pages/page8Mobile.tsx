@@ -53,6 +53,7 @@ const Page8Mobile = () => {
                     fontWeight: '400',
                     lineHeight: '1.2em',
                     textAlign: 'center',
+                    fontFamily: 'Poppins Regular, sans-serif'
                 }}>
                     Acabar com tudo que te limita vai ser o 
                     <br/>primeiro passo para retomares o controle 
@@ -90,6 +91,7 @@ const Page8Mobile = () => {
                         fontWeight: '400',
                         lineHeight: '1.2em',
                         textAlign: 'center',
+                        fontFamily: 'Poppins Regular, sans-serif'
                     }}>
                         Após ampliar o seu nível de consciência, 
                         <br/>tu vais aprender mecanismos científicos 
@@ -127,6 +129,7 @@ const Page8Mobile = () => {
                     fontWeight: '400',
                     lineHeight: '1.2em',
                     textAlign: 'center',
+                    fontFamily: 'Poppins Regular, sans-serif'
                 }}>
                         O Método CIS é um evento único de 
                         <br/>quatro dias, 
@@ -165,6 +168,7 @@ const Page8Mobile = () => {
                     fontWeight: '400',
                     lineHeight: '1.2em',
                     textAlign: 'center',
+                    fontFamily: 'Poppins Regular, sans-serif'
                 }}>
                         Vais vivenciar uma experiência de alto 
                         <br/>poder transformacional, que vai 

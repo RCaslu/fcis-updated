@@ -34,19 +34,28 @@ const Page6 = () => {
                         fontFamily: 'montserrat, sans-serif',
                     }}
                     >
-                    <p>
+                    <p style={{
+                            fontFamily: 'Poppins Regular, sans-serif',
+                        }}>
                             <span className="text-[#F8A312] text-xl font-bold"> - </span> 
                             Vencer qualquer obstáculo que te impeça de viver uma vida de abundância e que 
                             <br/>te permite dar as melhores condições para quem mais amas e para ti mesmo.
                         </p>
                         
-                        <p className="py-6">
+                        <p
+                        style={{
+                            fontFamily: 'Poppins Regular, sans-serif',
+                        }}
+                        className="py-6">
                             <span className="text-[#F8A312] text-xl font-bold"> - </span> 
                             Vencer qualquer obstáculo que te impeça de viver uma vida de abundância e que 
                             <br/>te permite dar as melhores condições para quem mais amas e para ti mesmo.
                         </p>
 
-                        <p>
+                        <p 
+                        style={{
+                            fontFamily: 'Poppins Regular, sans-serif',
+                        }}>
                             <span className="text-[#F8A312] text-xl font-bold"> - </span> 
                             Vencer qualquer obstáculo que te impeça de viver uma vida de abundância e que 
                             <br/>te permite dar as melhores condições para quem mais amas e para ti mesmo.
@@ -54,7 +63,11 @@ const Page6 = () => {
                     </div>
                         <div className="flex justify-center py-6">
                             <a onClick={scrollToPayments} className="cursor-pointer">
-                            <Button className="rounded-xl justify-center" variant={"goldFCS"}>
+                            <Button 
+                            style={{
+                                fontFamily: 'Poppins, sans-serif',
+                              }}
+                            className="rounded-xl justify-center" variant={"goldFCS"}>
                             GARANTIR MINHA VAGA
                             </Button>
                             </a>
