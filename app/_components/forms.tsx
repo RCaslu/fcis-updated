@@ -66,8 +66,8 @@ export default function Form({ device }: FormProps) {
 
   return (
     <div className='flex flex-col text-center item-center font-zillaslab'>
-        <div className=' py-12 '>
-        <form onSubmit={handleSubmit} className='py-[5px] rounded-xl bg-white w-[420px] mx-auto'>
+        <div className=' py-3 '>
+        <form onSubmit={handleSubmit} className='py-[5px] rounded-xl bg-white w-[350px] mx-auto'>
         <strong><p style={{fontFamily: 'Zilla Slab, sans-serif',}} className='text-black py-6 pt-12'>Um de nossos consultores vai entrar em contacto consigo</p></strong>
       <div className='py-2'>
                     <input 
@@ -76,7 +76,7 @@ export default function Form({ device }: FormProps) {
                         value={name} 
                         placeholder='Seu nome'
                         onChange={handleNameChange} 
-                        className="w-[410px] p-2 border border-gray-300 rounded text-black"
+                        className="w-[330px] p-2 border border-gray-300 rounded text-black"
                     />
         </div>
         <div className="py-2">
@@ -85,7 +85,7 @@ export default function Form({ device }: FormProps) {
             value={email}
             onChange={handleEmailChange}
             placeholder="Seu melhor Email"
-            className="w-[410px] p-2 border border-gray-300 rounded text-black"
+            className="w-[330px] p-2 border border-gray-300 rounded text-black"
           />
         </div>
         <div className="py-2">
@@ -95,7 +95,7 @@ export default function Form({ device }: FormProps) {
             value={telefone}
             placeholder="Seu Whatsapp"
             onChange={handleTelefoneChange}
-            className="w-[410px] p-2 border border-gray-300 rounded text-black"
+            className="w-[330px] p-2 border border-gray-300 rounded text-black"
           />
         </div>
         {errorMessage && (
@@ -113,14 +113,14 @@ export default function Form({ device }: FormProps) {
           fontFamily: 'Poppins, sans-serif',
         }}
         type="submit"
-        className=""
+        className="w-[330px]"
         variant={'ProjectButtonForms'}
         size={'ProjectButtonMobileSecond'}>
           QUERO TER MINHA VIDA 
           <br />TRANSFORMADA
         </Button>
         <div>
-            <strong><br/><p style={{fontFamily: 'Zilla Slab, sans-serif',}} className='text-black pb-12'>Preenche o formulário acima e <span className='font-bold'>tenha a vida transformada</span></p></strong>
+            <strong><br/><p style={{fontFamily: 'Zilla Slab, sans-serif',}} className=' text-black pb-12'>Preenche o formulário acima e <span className='font-bold'>tenha a vida transformada</span></p></strong>
         </div>
       </form>
         </div>

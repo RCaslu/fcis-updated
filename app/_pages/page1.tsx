@@ -49,7 +49,11 @@ const Page1 = () => {
           <Video path="./videos/Método CIS.mp4" />
             <div className="flex justify-center py-6">
             <a onClick={scrollToPayments} className="cursor-pointer">
-              <Button className="rounded-xl justify-center" variant={"goldFCS"}>
+              <Button 
+              style={{
+                fontFamily: 'Poppins, sans-serif',
+              }}
+              className="rounded-xl justify-center" variant={"goldFCS"}>
               GARANTIR MINHA VAGA
               </Button>
             </a>
