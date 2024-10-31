@@ -29,7 +29,7 @@ const Page3 = () => {
             <div className="flex justify-center py-7">
                 <h1 className="text-amber-500"
                 style={{
-                    fontFamily: 'montserrat',
+                    fontFamily: 'Poppins, sans-serif',
                     fontSize: '28px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -42,7 +42,7 @@ const Page3 = () => {
                 <div>
                 <h2 className="text-white" 
                 style={{
-                    fontFamily: 'montserrat',
+                    fontFamily: 'Poppins, sans-serif',
                     fontSize: '20px',
                     fontWeight: '400',
                     lineHeight: '1.2em',
@@ -62,7 +62,7 @@ const Page3 = () => {
                 <div className="flex justify-center">
                 <h1 className="text-amber-500"
                 style={{
-                    fontFamily: 'montserrat',
+                    fontFamily: 'Poppins, sans-serif',
                     fontSize: '28px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -75,7 +75,7 @@ const Page3 = () => {
             <div>
                 <h2 className="text-white py-5" 
                     style={{
-                        fontFamily: 'montserrat',
+                        fontFamily: 'Poppins, sans-serif',
                         fontSize: '20px',
                         fontWeight: '400',
                         lineHeight: '1.2em',
@@ -95,7 +95,7 @@ const Page3 = () => {
                 <div className="flex justify-center py-7">
                 <h1 className="text-amber-500"
                 style={{
-                    fontFamily: 'montserrat',
+                    fontFamily: 'Poppins, sans-serif',
                     fontSize: '28px',
                     fontWeight: 'bold',
                     letterSpacing: '-0.8px',
@@ -108,7 +108,7 @@ const Page3 = () => {
             <div>
                 <h2 className="text-white" 
                     style={{
-                        fontFamily: 'montserrat',
+                        fontFamily: 'Poppins, sans-serif',
                         fontSize: '20px',
                         fontWeight: '400',
                         lineHeight: '1.2em',

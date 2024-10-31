@@ -31,7 +31,11 @@ const Page5 = () => {
                     fontFamily: 'montserrat, sans-serif',
                   }}
                 >
-                    <p className="text-xl px-16">
+                    <p 
+                    style={{
+                        fontFamily: 'Poppins Regular, sans-serif',
+                    }}
+                    className="text-xl px-16">
                     Tu não serás “cobaia” de algo ainda não validado. Paulo Vieira é:
 
                     <br/><br/>Master Coach, PhD em Business Administration e Mestre em
@@ -48,53 +52,51 @@ const Page5 = () => {
                     </p>
                 </div>
             </div>
-            <div 
-            style={{
-                fontFamily: 'montserrat, sans-serif'
-            }}
-            className="flex justify-between py-4">
-                <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
+            <div className="flex justify-between py-4">
+                <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center" >
                     <img src="./05/camila.webp" className="p-1" width={"500px"} height={"30px"}></img>
                     <div
                     style={{
-                        fontFamily: 'montserrat, sans-serif'
+                        fontFamily: 'Poppins Regular, sans-serif',
                     }}
                     className="py-12">
                         <p>
-                        Vice-presidente 
-                        <br/>da Maior escola de Negócios da América Latina, 
-                        <br/>Mentora de Empresárias, Autora Best-Seller 
-                        <br/>e especialista em comportamento Humano.
+                        Vice-presidente da Maior escola de Negócios 
+                        <br/>da América Latina, Mentora de Empresárias, 
+                        <br/>Autora Best-Seller e especialista em 
+                        <br/>comportamento Humano.
                         </p>
                     </div>
                 </div>
 
                 <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
-                    <img src="./05/julia.webp" className="p-1" width={"500px"} height={"30px"}></img>
+                    <img src="./05/julia.webp" className="" width={"500px"} height={"30px"}></img>
                     <div 
                     style={{
-                        fontFamily: 'montserrat, sans-serif'
+                        fontFamily: 'Poppins Regular, sans-serif',
                     }}
                     className="py-12">
                         <p>
-                        Mentora, Palestrante e ministrante no maior treinamento de 
-                        <br/>Inteligência Emocional do Mundo, com mais de 1.5 milhões de 
-                        <br/>participantes em mais de 83 países.
+                        Mentora, Palestrante e ministrante no maior 
+                        <br/>treinamento de Inteligência Emocional do Mundo, 
+                        <br/>com mais de 1.5 milhões de participantes em mais 
+                        <br/>de 83 países.
                         </p>
                     </div>
                 </div>
 
                 <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
-                    <img src="./05/andre.webp" className="p-1" width={"500px"} height={"30px"}></img>
+                    <img src="./05/andre.webp" className="" width={"500px"} height={"30px"}></img>
                     <div
                     style={{
-                        fontFamily: 'montserrat, sans-serif'
+                        fontFamily: 'Poppins Regular, sans-serif',
                     }}
                     className="py-12">
                         <p>
-                        Renomado Neurocientista, professor convidado na universidade 
-                        <br/>de Harvard e Cambridge, autor de 4 livros e diversos artigos 
-                        <br/>científicos publicados em revistas nacionais e internacionais.
+                        Renomado Neurocientista, professor convidado 
+                        <br/>na universidade de Harvard e Cambridge, autor de 
+                        <br/>4 livros e diversos artigos científicos publicados 
+                        <br/>em revistas nacionais e internacionais.
                         </p>
                     </div>
                 </div>

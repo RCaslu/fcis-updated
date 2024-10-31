@@ -32,7 +32,7 @@ const Page5Mobile = () => {
                     <p style={{
                         textAlign: 'center',
                         fontSize: '18px',
-                        fontFamily: 'Montserrat, sans-serif',
+                        fontFamily: 'Poppins Regular, sans-serif',
                         lineHeight: '1.2',
                     }}>
                         Tu não serás “cobaia” de algo ainda
@@ -61,17 +61,17 @@ const Page5Mobile = () => {
             
             <div 
             style={{
-                fontFamily: 'montserrat, sans-serif'
+                fontFamily: 'Poppins Regular, sans-serif',
             }}
             className="gap-y-4 flex flex-col py-4">
                 <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
                     <img src="./05/camila.webp" className="p-1" width={"500px"} height={"30px"}></img>
                     <div className="py-12">
-                        <p>
+                        <p >
                         Vice-presidente 
-                        <br/>da Maior escola de Negócios da América Latina, 
-                        <br/>Mentora de Empresárias, Autora Best-Seller 
-                        <br/>e especialista em comportamento Humano.
+                        da Maior escola de Negócios da América Latina, 
+                        Mentora de Empresárias, Autora Best-Seller 
+                        e especialista em comportamento Humano.
                         </p>
                     </div>
                 </div>
@@ -79,10 +79,14 @@ const Page5Mobile = () => {
                 <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
                     <img src="./05/julia.webp" className="p-1" width={"500px"} height={"30px"}></img>
                     <div className="py-12">
-                        <p>
+                        <p
+                        style={{
+                            fontFamily: 'Poppins Regular, sans-serif',
+                        }}
+                        >
                         Mentora, Palestrante e ministrante no maior treinamento de 
-                        <br/>Inteligência Emocional do Mundo, com mais de 1.5 milhões de 
-                        <br/>participantes em mais de 83 países.
+                        Inteligência Emocional do Mundo, com mais de 1.5 milhões de 
+                        participantes em mais de 83 países.
                         </p>
                     </div>
                 </div>
@@ -90,10 +94,14 @@ const Page5Mobile = () => {
                 <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
                     <img src="./05/andre.webp" className="p-1" width={"500px"} height={"30px"}></img>
                     <div className="py-12">
-                        <p>
+                        <p
+                        style={{
+                            fontFamily: 'Poppins Regular, sans-serif',
+                        }}
+                        >
                         Renomado Neurocientista, professor convidado na universidade 
-                        <br/>de Harvard e Cambridge, autor de 4 livros e diversos artigos 
-                        <br/>científicos publicados em revistas nacionais e internacionais.
+                        de Harvard e Cambridge, autor de 4 livros e diversos artigos 
+                        científicos publicados em revistas nacionais e internacionais.
                         </p>
                     </div>
                 </div>
