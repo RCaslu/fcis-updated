@@ -55,11 +55,18 @@ const Page5 = () => {
             <div className="flex justify-between py-4">
                 <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center" >
                     <img src="./05/camila.webp" className="p-1" width={"500px"} height={"30px"}></img>
+                    <div className="py-6">
+                        <h1 className="text-[25px]"
+                        style={{
+                            fontFamily: 'Poppins Regular, sans-serif',
+                        }}
+                        >Camila Vieira</h1>
+                    </div>
                     <div
                     style={{
                         fontFamily: 'Poppins Regular, sans-serif',
                     }}
-                    className="py-12">
+                    className="py-2">
                         <p>
                         Vice-presidente da Maior escola de Negócios 
                         <br/>da América Latina, Mentora de Empresárias, 
@@ -71,11 +78,18 @@ const Page5 = () => {
 
                 <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
                     <img src="./05/julia.webp" className="" width={"500px"} height={"30px"}></img>
+                    <div className="py-6">
+                        <h1 className="text-[25px]"
+                        style={{
+                            fontFamily: 'Poppins Regular, sans-serif',
+                        }}
+                        >Júlia Vieira</h1>
+                    </div>
                     <div 
                     style={{
-                        fontFamily: 'Poppins Regular, sans-serif',
-                    }}
-                    className="py-12">
+                            fontFamily: 'Poppins Regular, sans-serif',
+                        }}
+                    className="py-2">
                         <p>
                         Mentora, Palestrante e ministrante no maior 
                         <br/>treinamento de Inteligência Emocional do Mundo, 
@@ -87,11 +101,18 @@ const Page5 = () => {
 
                 <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
                     <img src="./05/andre.webp" className="" width={"500px"} height={"30px"}></img>
+                    <div className="py-6">
+                        <h1 className="text-[25px]"
+                        style={{
+                            fontFamily: 'Poppins Regular, sans-serif',
+                        }}
+                        >Andre Darwin</h1>
+                    </div>
                     <div
                     style={{
                         fontFamily: 'Poppins Regular, sans-serif',
                     }}
-                    className="py-12">
+                    className="py-2">
                         <p>
                         Renomado Neurocientista, professor convidado 
                         <br/>na universidade de Harvard e Cambridge, autor de 
