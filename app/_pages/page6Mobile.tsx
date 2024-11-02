@@ -20,7 +20,6 @@ const Page6Mobile = () => {
                 <h1 className="text-white text-start p-12"
                     style={{
                         fontFamily: 'Tusker Grotesk, sans-serif',
-                        fontWeight: 'bold',
                         letterSpacing: '1.0px',
                         lineHeight: '1.2',
                         textAlign: 'center',

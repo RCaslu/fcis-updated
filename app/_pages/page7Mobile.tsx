@@ -14,7 +14,6 @@ const Page7Mobile = () => {
                 <h1 className="text-slate-800 text-center"
                 style={{
                     fontFamily: 'Poppins, sans-serif',
-                    fontWeight: 'bold',
                     letterSpacing: '1.0px',
                     lineHeight: '1.2',
                     fontSize: '25px',
