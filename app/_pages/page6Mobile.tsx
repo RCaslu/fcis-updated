@@ -15,8 +15,8 @@ const Page6Mobile = () => {
             height: '800px',
             backgroundSize: 'cover',
         }}>
-            <div className="flex flex-col items-center py-16">
-                <div className="border-4 border-solid rounded-xl border-white">
+            <div className="flex flex-col items-center py-10">
+                <div className="border-4 max-w-[370px] text-center mx-auto border-solid rounded-xl border-white">
                 <h1 className="text-white text-start p-12"
                     style={{
                         fontFamily: 'Tusker Grotesk, sans-serif',
@@ -26,8 +26,8 @@ const Page6Mobile = () => {
                         textAlign: 'center',
                         fontSize: '25px',
                     }}>
-                        Depois do <span className="text-[#F8A312]">MÉTODO CIS</span>
-                        <br/>serás capaz de...
+                        Depois do <span className="text-[#F8A312]">MÉTODO CIS </span>
+                        serás capaz de...
                     </h1>
                     <div className="flex flex-col items-center py-5">
                        <div style={{
