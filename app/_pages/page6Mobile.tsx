@@ -16,7 +16,7 @@ const Page6Mobile = () => {
             backgroundSize: 'cover',
         }}>
             <div className="flex flex-col items-center py-10">
-                <div className="border-4 max-w-[370px] text-center mx-auto border-solid rounded-xl border-white">
+                <div className="border-4 max-w-[370px] text-center mx-auto bg-black bg-opacity-50 border-solid rounded-xl border-white">
                 <h1 className="text-white text-start p-12"
                     style={{
                         fontFamily: 'Tusker Grotesk, sans-serif',

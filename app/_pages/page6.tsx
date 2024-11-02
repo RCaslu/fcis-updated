@@ -17,8 +17,8 @@ const Page6 = () => {
             backgroundPosition: 'center'
         }}
         >
-            <div className="flex justify-end pr-52 py-52 ">
-                <div className="flex flex-col items-center pb-12 p-8 border-4 border-solid rounded-xl border-white">
+            <div className="flex justify-end pr-52 py-[150px] ">
+                <div className="flex flex-col items-center pb-12 p-8 text-start border-4 bg-black max-w-[610px] bg-opacity-30 border-solid rounded-xl border-white">
                     <h1 className="text-white text-5xl text-start p-12"
                     style={{
                         fontFamily: 'Tusker Grotesk, sans-serif',
@@ -26,8 +26,8 @@ const Page6 = () => {
                         letterSpacing: '1.0px',
                         lineHeight: '1.2',
                     }}>
-                        Depois do <span className="text-[#F8A312]">MÉTODO CIS</span>
-                        <br/>serás capaz de...
+                        Depois do <span className="text-[#F8A312]">MÉTODO CIS </span>
+                        serás capaz de...
                     </h1>
                     <div
                     style={{
