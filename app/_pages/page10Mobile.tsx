@@ -17,7 +17,6 @@ const Page10Mobile = () => {
                                 style={{
                                     fontFamily: 'Tusker Grotesk, sans-serif',
                                     fontSize: '27px',
-                                    fontWeight: 'bold',
                                     letterSpacing: '2.3px',
                                     wordSpacing: '2px',
                                     lineHeight: '1.2',
@@ -34,7 +33,7 @@ const Page10Mobile = () => {
                         fontFamily: 'Poppins, sans-serif',
                         fontSize: '16px',
                     }}
-                    className="py-12">
+                    className="py-6">
                         <p>Garante teu lugar com desconto por tempo limitado</p>
                     </div>
 
