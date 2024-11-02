@@ -64,8 +64,8 @@ const Page5Mobile = () => {
                 fontFamily: 'Poppins Regular, sans-serif',
             }}
             className="gap-y-4 flex flex-col py-4">
-                <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
-                    <img src="./05/camila.webp" className="p-1" width={"500px"} height={"30px"}></img>
+                <div className="flex flex-col border border-solid max-w-[360px] mx-auto border-white rounded-xl justify-center text-center items-center">
+                    <img src="./05/camila.webp" className="p-1" width={"350px"} height={"30px"}></img>
                     <div className="py-12">
                         <p >
                         Vice-presidente 
@@ -76,8 +76,8 @@ const Page5Mobile = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
-                    <img src="./05/julia.webp" className="p-1" width={"500px"} height={"30px"}></img>
+                <div className="flex flex-col max-w-[360px] mx-auto border border-solid border-white rounded-xl justify-center text-center items-center">
+                    <img src="./05/julia.webp" className="p-1" width={"350px"} height={"30px"}></img>
                     <div className="py-12">
                         <p
                         style={{
@@ -91,8 +91,8 @@ const Page5Mobile = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col border border-solid border-white rounded-xl justify-center text-center items-center">
-                    <img src="./05/andre.webp" className="p-1" width={"500px"} height={"30px"}></img>
+                <div className="flex flex-col max-w-[360px] mx-auto border border-solid border-white rounded-xl justify-center text-center items-center">
+                    <img src="./05/andre.webp" className="p-1" width={"350px"} height={"30px"}></img>
                     <div className="py-12">
                         <p
                         style={{
