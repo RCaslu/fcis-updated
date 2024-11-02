@@ -43,7 +43,11 @@ const Page10 = () => {
                             <img src="./10/TEXT BRONZE.png">
                             </img>
                             <div className="absolute py-32 px-12">
-                                    <Button className="rounded-xl justify-center py-8" size={'lg'} variant={"goldFCS"}>
+                                    <Button 
+                                    style={{
+                                        fontFamily: 'Poppins, sans-serif',
+                                      }}
+                                    className="rounded-xl justify-center py-8" size={'lg'} variant={"goldFCS"}>
                                         GARANTIR MINHA VAGA
                                     </Button>
                                 </div> 
@@ -53,7 +57,11 @@ const Page10 = () => {
                             <img src="./10/TEXT - DIAMOND.png" className="p-1">
                             </img>
                                 <div className="absolute py-12 px-12">
-                                    <Button className="rounded-xl justify-center py-8" size={'lg'} variant={"goldFCS"}>
+                                    <Button 
+                                    style={{
+                                        fontFamily: 'Poppins, sans-serif',
+                                      }}
+                                    className="rounded-xl justify-center py-8" size={'lg'} variant={"goldFCS"}>
                                         GARANTIR MINHA VAGA
                                     </Button>
                                 </div>  

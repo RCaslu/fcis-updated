@@ -50,7 +50,11 @@ const Page10Mobile = () => {
                                 </img>
                             </div>
                             <div className="absolute py-14 px-6">
-                                    <Button className="rounded-xl justify-center py-8" size={'lg'} variant={"goldFCS"}>
+                                    <Button 
+                                    style={{
+                                        fontFamily: 'Poppins, sans-serif',
+                                      }}
+                                    className="rounded-xl justify-center py-8" size={'lg'} variant={"goldFCS"}>
                                         GARANTIR MINHA VAGA
                                     </Button>
                                 </div> 
@@ -68,7 +72,11 @@ const Page10Mobile = () => {
                                 </img>
                             </div>
                                 <div className="absolute py-8 px-6">
-                                    <Button className="rounded-xl justify-center py-8" size={'lg'} variant={"goldFCS"}>
+                                    <Button 
+                                    style={{
+                                        fontFamily: 'Poppins, sans-serif',
+                                      }}
+                                    className="rounded-xl justify-center py-8" size={'lg'} variant={"goldFCS"}>
                                         GARANTIR MINHA VAGA
                                     </Button>
                                 </div>  
