@@ -9,7 +9,7 @@ const scrollToPayments = () => {
 
 const Page6Mobile = () => {
     return ( 
-        <div className="flex flex-col items-center"
+        <div className="flex flex-col items-center border border-t-[#F8A312] border-t-[10px]"
         style={{
             backgroundImage: "url('./06/BACKGROUND.png')", // FIX: CHANCE THE BACKGROUND IMG
             height: '800px',
