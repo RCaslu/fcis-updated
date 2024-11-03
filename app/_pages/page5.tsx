@@ -99,7 +99,7 @@ const Page5 = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-col border border-solid pl-4 pr-4 border-white rounded-3xl justify-center text-center items-center">
+                <div className="flex flex-col border pl-4 pr-4 border-solid border-white rounded-3xl justify-center text-center items-center">
                     <img src="./05/andre.webp" className="pt-4" width={"400px"} height={"30px"}></img>
                     <div className="py-6">
                         <h1 className="text-[25px]"
