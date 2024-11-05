@@ -65,7 +65,7 @@ const Page5Mobile = () => {
             }}
             className="gap-y-4 flex flex-col py-4">
                 <div className="flex flex-col border border-solid rounded-t-[27px] max-w-[350px] mx-auto border-white rounded-3xl justify-center text-center items-center">
-                    <img src="./05/camila.webp" className="" width={"346px"} height={"30px"}></img>
+                    <img src="./05/camila.webp" className="pt-6" width={"300px"} height={"30px"}></img>
                     <div className="py-6">
                     <h1 className="text-[25px]"
                         style={{
@@ -84,7 +84,7 @@ const Page5Mobile = () => {
                 </div>
 
                 <div className="flex flex-col max-w-[350px] mx-auto border border-solid border-white rounded-3xl justify-center text-center items-center">
-                    <img src="./05/julia.webp" className="" width={"350px"} height={"30px"}></img>
+                    <img src="./05/julia.webp" className="pt-6" width={"300px"} height={"30px"}></img>
                     <div className="py-6">
                         <h1 className="text-[25px]"
                         style={{
@@ -106,7 +106,7 @@ const Page5Mobile = () => {
                 </div>
 
                 <div className="flex flex-col max-w-[350px] mx-auto border border-solid border-white rounded-3xl justify-center text-center items-center">
-                    <img src="./05/andre.webp" className="" width={"350px"} height={"30px"}></img>
+                    <img src="./05/andre.webp" className="pt-6" width={"300px"} height={"30px"}></img>
                     <div className="py-6">
                         <h1 className="text-[25px]"
                         style={{
